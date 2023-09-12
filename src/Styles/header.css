@@ -1,0 +1,89 @@
+ body{
+    background-color:#FEC8C6;
+  }
+  
+  header{
+    width:100%;
+    overflow:hidden;
+    background-color:#003A3D;
+    margin-bottom:0px;
+  }
+  
+
+  .wrapper{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    overflow:hidden; 
+  }
+  
+  header .logo{
+    color:#FEC8C6;
+    font-size:50px;
+    line-height:100px;
+    font-family: 'Sacramento';
+    float:left;
+    margin-top: 30px;
+  }
+  
+  header nav{
+    float:right;
+    line-height:200px;
+  }
+  
+  header nav a{
+    display:inline-block; 
+    color:#CFC9C8;
+    text-decoration:none;
+    padding:10px 20px;
+    line-height:normal;
+    font-size:20px;
+    font-weight:bold;
+    -webkit-transition:all 100ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+  }
+  
+  header nav a:hover{
+    background-color:#FF8083;
+    border-radius:50px;
+  }
+  
+
+  .header2{ 
+    position:fixed;
+    height:100px;
+  }
+  
+
+  .header2 .logo{
+    line-height:100px;
+    font-size:20px;
+  }
+  
+  .header2 nav{
+    line-height:100px;
+    font-size:20px;
+  }
+  
+  .content p{
+    margin-bottom:1em;
+  }
+
+  @media screen and (max-width:1050px){
+    header .logo,
+    header nav{
+      width:100%;
+      text-align:center;
+      line-height:75px;
+    }
+  }
+  
+    .header2{
+    height:auto;
+  }
+  
+    .header2 .logo,
+  .header2 nav{
+    line-height:50px;
+  }

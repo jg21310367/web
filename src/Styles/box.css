@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.box { 
+    background:#003A3D;
+    font-size: 30px; 
+    color:#FEC8C6;
+    font-family: 'monaco', monospace;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    margin: 20px;
+    min-width: 220px;
+}
+
+
